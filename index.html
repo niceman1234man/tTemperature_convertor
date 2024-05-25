@@ -7,16 +7,23 @@
     <link  rel="stylesheet"  href="csspart.css">
 </head>
 <body>
-    <form>
+    <div class="container">
+    <div>
+        <img src="images/temp.png" alt="temperature images">
+    </div>
+    <div>
         <h1 >Temperature Converter</h1>
         <input type="number" id="input" value="0"><br>
         <input type="radio" id="radio1" name="unit">
         <label for="radio1">celceius to farahniet</label><br>
         <input type="radio" id="radio2" name="unit">
         <label for="radio2">farhaniet to celcius</label><br>
+        <input type="radio" id="radio3" name="unit">
+        <label for="radio3"> celcius to kelvin</label><br>
         <button id="button" onclick="convert()">submit</button>
         <p id="p"></p>
-    </form>
+    </div>
+</div>
     <script src="jspart.js"></script>
 </body>
 </html>
